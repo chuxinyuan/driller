@@ -11,4 +11,11 @@ before_script:
   - R -e "install.packages('stringr', dependencies = 'Imports')"
   - R -e "install.packages('blogdown', dependencies = 'Imports')"
   - R -e "install.packages('yaml', dependencies = 'Imports')"
+
+test:
+  script:
   - Rscript R/fetch.R
+  only:
+  - master
+
+
