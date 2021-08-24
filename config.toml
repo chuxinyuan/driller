@@ -1,0 +1,35 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Daily R"
+theme = "hugo-xmag"
+googleAnalytics = ""
+disqusShortname = "yufree"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+hasCJKLanguage = true
+enableEmoji = true
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Archive"
+    url = "/archives/"
+    weight = 3
+
+[params]
+    description = "light news/blog aggregator website for R"
+    summary_length = 300
+    github_edit = "https://github.com/yufree/daily/edit/master/content/"
+    footer = "&copy; [Miao YU](https://yufree.cn) 2018 | [Github](https://github.com/yufree) | [Twitter](https://twitter.com/yu_free)"
+    
+[params.text]
+    back = "&larr; Back to Home"
+    edit = "Edit this page &rarr;"
+    truncated = "&hellip;"

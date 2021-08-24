@@ -1,0 +1,3 @@
+"website","update"
+"cxy.rbind.io/index.xml","2019-05-29"
+"yihui.org/index.xml","2020-05-22"

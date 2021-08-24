@@ -1,0 +1,19 @@
+image: rocker/verse:4.1.1
+
+before_script:
+  - apt-get update && apt-get -y install pandoc pandoc-citeproc
+  - R -e "install.packages('remotes', dependencies = 'Imports')"  
+  - R -e "remotes::install_github('yufree/scifetch', dependencies = 'Imports')"    
+  - R -e "install.packages('blogdown', dependencies = 'Imports')"
+  - R -e "install.packages('yaml', dependencies = 'Imports')"
+  - R -e "blogdown::install_hugo(version = '0.68.3')"
+
+pages:
+  script:
+    - Rscript R/fetch.R
+    - R -e "blogdown::build_site()"
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
