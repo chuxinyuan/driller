@@ -1,3 +1,5 @@
+# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
+image: registry.gitlab.com/pages/hugo:latest
 image: rocker/verse:4.1.1
 
 before_script:
@@ -11,14 +13,24 @@ before_script:
   - R -e "install.packages('stringr', dependencies = 'Imports')"
   - R -e "install.packages('blogdown', dependencies = 'Imports')"
   - R -e "install.packages('yaml', dependencies = 'Imports')"
-  - R -e "blogdown::install_hugo(version = '0.68.3')"
+  - R -e "blogdown::install_hugo(version = '0.55.6')"
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+test:
+  script:
+  - hugo
+  except:
+  - master
 
 pages:
   script:
-    - Rscript R/fetch.R
-    - R -e "blogdown::build_site()"
+  - hugo
+  - Rscript R/fetch.R
+  - R -e "blogdown::build_site()"
   artifacts:
     paths:
-      - public
+    - public
   only:
-    - master
+  - master
