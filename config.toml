@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://chuxinyuan.gitlab.com/daily/"
 languageCode = "en-us"
 title = "Daily R"
 theme = "hugo-xmag"
