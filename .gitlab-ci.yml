@@ -12,7 +12,7 @@ before_script:
   - R -e "install.packages('blogdown', dependencies = 'Imports')"
   - R -e "install.packages('yaml', dependencies = 'Imports')"
 
-test:
+deploy:
   script:
   - Rscript R/fetch.R
   only:
