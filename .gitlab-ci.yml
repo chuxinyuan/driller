@@ -1,5 +1,11 @@
 image: rocker/verse:4.1.1
 
+variables:
+  # ssh_deploy_key is defined under Settings > CI/CD Pipelines > Secret Variables.
+  temporary_branch: "gitlab-ci-getmd.md"
+  GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -i .ssh/id_rsa-gitlab-ci"
+  GIT_STRATEGY: clone
+
 getmd:
   stage: build
   before_script:
