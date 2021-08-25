@@ -1,38 +1,32 @@
-image: registry.gitlab.com/pages/hugo:0.55.6
 image: rocker/verse:4.1.1
 
-before_script:
-  # - apt-get update && apt-get -y install pandoc pandoc-citeproc
-  - R -e "install.packages('jsonlite', dependencies = 'Imports')"
-  - R -e "install.packages('tibble', dependencies = 'Imports')"
-  - R -e "install.packages('xml2', dependencies = 'Imports')"
-  - R -e "install.packages('httr', dependencies = 'Imports')"
-  - R -e "install.packages('lubridate', dependencies = 'Imports')"
-  - R -e "install.packages('magrittr', dependencies = 'Imports')"  
-  - R -e "install.packages('stringr', dependencies = 'Imports')"
-  - R -e "install.packages('blogdown', dependencies = 'Imports')"
-  - R -e "install.packages('yaml', dependencies = 'Imports')"
-  - R -e "blogdown::install_hugo(version = '0.55.6')"
-  - R -e "options(blogdown.hugo.version = '0.55.6')"
-  - Rscript R/fetch.R
-  
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+getmd:
+  stage: build
+  before_script:
+    - R -e "install.packages('jsonlite', dependencies = 'Imports')"
+    - R -e "install.packages('tibble', dependencies = 'Imports')"
+    - R -e "install.packages('xml2', dependencies = 'Imports')"
+    - R -e "install.packages('httr', dependencies = 'Imports')"
+    - R -e "install.packages('lubridate', dependencies = 'Imports')"
+    - R -e "install.packages('magrittr', dependencies = 'Imports')"  
+    - R -e "install.packages('stringr', dependencies = 'Imports')"
+    - R -e "install.packages('blogdown', dependencies = 'Imports')"
+    - R -e "install.packages('yaml', dependencies = 'Imports')"
+    - Rscript R/fetch.R
 
-test:
   script:
-  - hugo
-  except:
-  - master
+    # Prepare git for pushing back to repository.
+    - mkdir -pvm 0700 .ssh
+    - echo "$ssh_deploy_key" > .ssh/id_rsa-gitlab-ci
+    - chmod 0400 .ssh/id_rsa-gitlab-ci
+    - git checkout -b "$temporary_branch"
+    - git config --global user.email $(git --no-pager show -s --format='%ae' HEAD)
+    - git config --global user.name $(git --no-pager show -s --format='%an' HEAD)
+    - git remote set-url --push origin $(perl -pe 's#.*@(.+?(\:\d+)?)/#git@\1:#' <<< $CI_REPOSITORY_URL)
 
-pages:
-  script:
-  - hugo --environment production
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-
-
-
+    # Push modified README.md back to repository
+    - git commit -m "Daily update" || true
+    - git push origin "$temporary_branch:$CI_COMMIT_REF_NAME" || true
+    
+  after_script:
+    - rm -Rfv .ssh
