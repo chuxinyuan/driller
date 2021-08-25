@@ -13,6 +13,7 @@ before_script:
   - R -e "install.packages('blogdown', dependencies = 'Imports')"
   - R -e "install.packages('yaml', dependencies = 'Imports')"
   - R -e "blogdown::install_hugo(version = '0.55.6')"
+  - R -e "options(blogdown.hugo.version = '0.55.6')"
   - Rscript R/fetch.R
   
 variables:
