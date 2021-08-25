@@ -12,6 +12,7 @@ before_script:
   - R -e "install.packages('blogdown', dependencies = 'Imports')"
   - R -e "install.packages('yaml', dependencies = 'Imports')"
   - R -e "blogdown::install_hugo(version = '0.55.6')"
+  - Rscript R/fetch.R
   
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -27,7 +28,7 @@ pages:
   - hugo
   - git add --all *
   - git commit -m "Daily update"
-  - git push -q git@gitlab.com:chuxinyuan/dailyr.git HEAD:master
+  - git push -q https://${GITLAB_PAT}@github.com/chuxinyuan/daily.git HEAD:master
   artifacts:
     paths:
     - public
