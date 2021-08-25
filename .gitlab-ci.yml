@@ -34,7 +34,8 @@ getmd:
     # Push modified .md back to repository
     - git add --all *
     - git commit -m "daily update" || true
-    - git push origin "$temporary_branch:$CI_COMMIT_REF_NAME" || true
-    
+    - git push origin https://${CI_USERNAME}:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_NAME}.git || true
+    - git push --follow-tags origin branch
+  
   after_script:
     - rm -Rfv .ssh
