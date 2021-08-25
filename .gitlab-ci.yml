@@ -22,14 +22,12 @@ test:
   except:
   - master
 
-after_success:
-- git add --all *
-- git commit -m "Daily update"
-- git push -q git@gitlab.com:chuxinyuan/dailyr.git HEAD:master
-  
 pages:
   script:
   - hugo
+  - git add --all *
+  - git commit -m "Daily update"
+  - git push -q git@gitlab.com:chuxinyuan/dailyr.git HEAD:master
   artifacts:
     paths:
     - public
