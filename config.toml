@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://chuxinyuan.gitlab.io/dailyr/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
