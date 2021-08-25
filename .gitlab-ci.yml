@@ -25,10 +25,10 @@ test:
 
 pages:
   script:
-  - hugo
   - git add --all *
   - git commit -m "Daily update"
   - git push -q git@gitlab.com:chuxinyuan/daily.git HEAD:master
+  - hugo
   artifacts:
     paths:
     - public
