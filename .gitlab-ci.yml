@@ -1,5 +1,5 @@
 # image: registry.gitlab.com/pages/hugo/hugo_extended:0.55.6
-image: registry.gitlab.com/pages/hugo:0.55.6
+image: publysher/hugo
 image: rocker/verse:4.1.1
 
 before_script:
