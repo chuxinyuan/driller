@@ -18,7 +18,6 @@ getmd:
     - R -e "install.packages('stringr', dependencies = 'Imports')"
     - R -e "install.packages('blogdown', dependencies = 'Imports')"
     - R -e "install.packages('yaml', dependencies = 'Imports')"
-    - Rscript R/fetch.R
 
   script:
     # Prepare git for pushing back to repository.
@@ -26,11 +25,11 @@ getmd:
     - echo "$ssh_deploy_key" > .ssh/id_rsa-gitlab-ci
     - chmod 0400 .ssh/id_rsa-gitlab-ci
     - git checkout -b "$temporary_branch"
-    - git config --global user.email $(git --no-pager show -s --format='%ae' HEAD)
-    - git config --global user.name $(git --no-pager show -s --format='%an' HEAD)
-
-    - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
-    - git remote set-url origin "https://gitlab-ci-token:${key}@${url_host}"
+    - git remote set-url origin https://${CI_USERNAME}:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_NAME}.git
+    - git config --global user.email '${GITLAB_USER_EMAIL}'
+    - git config --global user.name '${GITLAB_USER_ID}' 
+    
+    - Rscript R/fetch.R   
 
     # Push modified .md back to repository
     - git add --all *
