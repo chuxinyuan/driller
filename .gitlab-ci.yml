@@ -28,7 +28,7 @@ pages:
   - hugo
   - git add --all *
   - git commit -m "Daily update"
-  - git push -q https://${GITLAB_PAT}@github.com/chuxinyuan/daily.git HEAD:master
+  - git push -q git@gitlab.com:chuxinyuan/daily.git HEAD:master
   artifacts:
     paths:
     - public
