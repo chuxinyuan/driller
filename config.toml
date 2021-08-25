@@ -4,6 +4,7 @@ layoutdir     = "layouts"
 publishdir    = "public"
 title = "Beautiful Daily"
 canonifyurls  = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 DefaultContentLanguage = "en"
 theme = "beautifulhugo"
@@ -92,3 +93,5 @@ pygmentCodeFences = true
     name = "Tags"
     url = "tags"
     weight = 3
+
+
