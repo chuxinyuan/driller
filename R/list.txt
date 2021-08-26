@@ -1,3 +1,6 @@
 "website","update"
 "cxy.rbind.io/index.xml","2021-08-25"
 "yihui.org/index.xml","2021-08-25"
+"yufree.cn/index.xml","2021-08-25"
+"yixuan.blog/cn/rss.xml","2021-08-22"
+"s0521.github.io/cn/index.xml","2021-08-22"

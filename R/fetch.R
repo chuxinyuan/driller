@@ -130,7 +130,7 @@ getrss <- function(feed){
 }
 
 
-if (dir.exists('content/post') == FALSE) dir.create('content/post')
+dir.create('content/post', showWarnings = FALSE)
 d = Sys.Date()
 
 if (!file.exists(f <- 'R/list.txt')) writeLines('website, update', f)
