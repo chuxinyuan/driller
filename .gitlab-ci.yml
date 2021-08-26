@@ -1,9 +1,6 @@
 image: rocker/verse:4.1.1
 
-variables:
-  CI_REPOSITORY_URL: https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@gitlab.com/$CI_PROJECT_PATH.git 
-
-getmd:
+get_md_file:
   stage: build
   before_script:
     - R -e "install.packages('jsonlite', dependencies = 'Imports')"
@@ -17,13 +14,16 @@ getmd:
     - R -e "install.packages('yaml', dependencies = 'Imports')"
 
   script:
-    # Prepare git for pushing back to repository.
-    - git config --global user.name $GIT_ACCESS_USER
-    - git config --global user.email $GIT_ACCESS_EMAIL
+    - git remote set-url origin https://${CI_USERNAME}:${CI_JOB_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git
+    - git config --global user.name "${GITLAB_USER_NAME}"
+    - git config --global user.email "${GITLAB_USER_EMAIL}"
     
-    # Do something.
-    - Rscript R/fetch.R   
+    # 在 rocker 的 content/post 下生成 .md 文件
+    - Rscript R/fetch.R 
 
-    # Push back to repository
-    - npm run version -- --prerelease $CI_COMMIT_REF_SLUG
-    - git push --follow-tags $CI_REPOSITORY_URL HEAD:$CI_COMMIT_REF_NAME
+  after_script:
+    # push to origin branch
+    - git add --all *
+    - git commit -m '[skip ci] commit from CI runner'
+    - git push origin HEAD:$CI_COMMIT_REF_NAME
+
