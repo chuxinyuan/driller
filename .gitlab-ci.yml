@@ -1,10 +1,7 @@
 image: rocker/verse:4.1.1
 
 variables:
-  # ssh_deploy_key is defined under Settings > CI/CD Pipelines > Secret Variables.
-  temporary_branch: "getmd"
-  GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -i .ssh/id_rsa-gitlab-ci"
-  GIT_STRATEGY: clone
+  CI_REPOSITORY_URL: https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@gitlab.com/$CI_PROJECT_PATH.git 
 
 getmd:
   stage: build
@@ -21,19 +18,12 @@ getmd:
 
   script:
     # Prepare git for pushing back to repository.
-    - mkdir -pvm 0700 .ssh
-    - echo "$ssh_deploy_key" > .ssh/id_rsa-gitlab-ci
-    - chmod 0400 .ssh/id_rsa-gitlab-ci
-    - git checkout -b "$temporary_branch"
-    - git config --global user.email $(git --no-pager show -s --format='%ae' HEAD)
-    - git config --global user.name $(git --no-pager show -s --format='%an' HEAD)
-    - git remote set-url --push origin $(perl -pe 's#.*@(.+?(\:\d+)?)/#git@\1:#' <<< $CI_REPOSITORY_URL)
+    - git config --global user.name $GIT_ACCESS_USER
+    - git config --global user.email $GIT_ACCESS_EMAIL
     
+    # Do something.
     - Rscript R/fetch.R   
 
     # Push back to repository
-    - git commit -m "" || true
-    - git push origin "$temporary_branch:$CI_COMMIT_REF_NAME" || true
-  
-  after_script:
-    - rm -Rfv .ssh
+    - npm run version -- --prerelease $CI_COMMIT_REF_SLUG
+    - git push --follow-tags $CI_REPOSITORY_URL HEAD:$CI_COMMIT_REF_NAME
