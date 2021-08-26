@@ -2,7 +2,7 @@ image: rocker/verse:4.1.1
 
 variables:
   # ssh_deploy_key is defined under Settings > CI/CD Pipelines > Secret Variables.
-  temporary_branch: "getmd.md"
+  temporary_branch: "getmd"
   GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -i .ssh/id_rsa-gitlab-ci"
   GIT_STRATEGY: clone
 
@@ -25,16 +25,15 @@ getmd:
     - echo "$ssh_deploy_key" > .ssh/id_rsa-gitlab-ci
     - chmod 0400 .ssh/id_rsa-gitlab-ci
     - git checkout -b "$temporary_branch"
-    - git remote set-url origin https://${CI_USERNAME}:${CI_PUSH_TOKEN}@gitlab.com/${CI_PROJECT_NAME}.git
-    - git config --global user.email '${GITLAB_USER_EMAIL}'
-    - git config --global user.name '${GITLAB_USER_ID}' 
+    - git config --global user.email $(git --no-pager show -s --format='%ae' HEAD)
+    - git config --global user.name $(git --no-pager show -s --format='%an' HEAD)
+    - git remote set-url --push origin $(perl -pe 's#.*@(.+?(\:\d+)?)/#git@\1:#' <<< $CI_REPOSITORY_URL)
     
     - Rscript R/fetch.R   
 
-    # Push modified .md back to repository
-    - git add --all *
-    - git commit -m "daily update" || true
-    - git push https://gitlab.com/chuxinyuan/dailyr.git
+    # Push back to repository
+    - git commit -m "" || true
+    - git push origin "$temporary_branch:$CI_COMMIT_REF_NAME" || true
   
   after_script:
     - rm -Rfv .ssh
