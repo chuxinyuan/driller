@@ -18,7 +18,7 @@ get_md_file:
     - git config --global user.name "${GITLAB_USER_NAME}"
     - git config --global user.email "${GITLAB_USER_EMAIL}"
     
-    # 在 rocker 的 content/post 下生成 .md 文件
+    # 在 rocker 的 content/post 目录下生成 .md 文件
     - Rscript R/fetch.R 
 
   after_script:
