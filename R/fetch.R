@@ -169,7 +169,7 @@ if(NROW(x)>0){
                 name = gsub("[^a-z0-9]+", "-", name)
                 name = gsub("--+", "-", name)
                 # file name too long issue
-                name = substr(name,1,200)
+                name = substr(name,1,50)
                 p = sprintf('content/post/%s.md', paste0(name))
                 
                 sink(p)
