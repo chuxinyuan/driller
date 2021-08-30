@@ -1,3 +1,3 @@
 ---
-title: Daily R
+title: Home
 ---

@@ -1,9 +1,9 @@
 baseurl = "https://dailyr.vercel.app/"
 languageCode = "en-us"
-title = "Daily R"
+title = "DAILY FOR R"
 theme = "hugo-xmag"
 googleAnalytics = ""
-disqusShortname = "yufree"
+disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_cache$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
@@ -15,19 +15,19 @@ enableEmoji = true
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Archives"
+    url = "/archives/"
     weight = 2
 [[menu.main]]
-    name = "Archive"
-    url = "/archives/"
+    name = "About"
+    url = "/about/"
     weight = 3
 
 [params]
-    description = "light news/blog aggregator website for R"
+    description = "A light blog aggregator website for R"
     summary_length = 300
-    github_edit = "https://github.com/yufree/daily/edit/master/content/"
-    footer = "&copy; [Miao YU](https://yufree.cn) 2018 | [Github](https://github.com/yufree) | [Twitter](https://twitter.com/yu_free)"
+    github_edit = "https://gitlab.com/chuixinyuan/dailyr/edit/master/content/"
+    footer = ""
     
 [params.text]
     back = "&larr; Back to Home"

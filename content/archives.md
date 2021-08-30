@@ -1,5 +1,5 @@
 ---
-title: Daily R Archives
+title: Archives
 ---
 
 {{< archives >}}
