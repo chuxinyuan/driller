@@ -29,22 +29,21 @@ title: About
 ```r
 x = scifetch::getrss('path-to-blog-rss-xml-file')
 for (i in 1:NROW(x)) {
-name = gsub("^http[s]?://|/$", "", tolower(x[i, 'linkTitle']))
-  
-  name = gsub("%", "", name)
-  name = gsub("[^a-z0-9]+", "-", name)
-  name = gsub("--+", "-", name)
-  # file name too long issue
-  name = substr(name, 1, 100)
-  p = sprintf('content/post/%s.md', paste0(name))
-  
-  sink(p)
-  cat('---\n')
-  cat(yaml::as.yaml(x[i, ], ))
-  cat('disable_comments: true\n')
-  cat('---\n')
-  cat(as.character(x[i, 5]))
-  sink()
+    name = gsub("^http[s]?://|/$", "", tolower(x[i, 'linkTitle']))
+    name = gsub("%", "", name)
+    name = gsub("[^a-z0-9]+", "-", name)
+    name = gsub("--+", "-", name)
+    # file name too long issue
+    name = substr(name, 1, 100)
+    p = sprintf('content/post/%s.md', paste0(name))
+    
+    sink(p)
+    cat('---\n')
+    cat(yaml::as.yaml(x[i,],))
+    cat('disable_comments: true\n')
+    cat('---\n')
+    cat(as.character(x[i, 5]))
+    sink()
 }
 ```
 
