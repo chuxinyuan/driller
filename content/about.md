@@ -48,7 +48,8 @@ for (i in 1:NROW(x)) {
 ```
 
 # Recipe
- 
+
+- [daily](https://github.com/yufree/daily) gave me all the source code, thanks to yufree and others for their great work.
 - [Blogdown](https://github.com/rstudio/blogdown) to build the site from yihui.
 - [xmag](https://github.com/yihui/hugo-xmag) layout also from yihui and yufree made some modifications [here](https://github.com/yufree/hugo-xmag).
 - [scifetch](https://github.com/yufree/scifetch) to analysis RSS(support xml, atom and json) from yufree, modified from [tidyRSS](https://cran.r-project.org/web/packages/tidyRSS/index.html) from RobertMyles.
