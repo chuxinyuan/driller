@@ -26,7 +26,7 @@ enableEmoji = true
 [params]
     description = "A light blog aggregator website for R"
     summary_length = 300
-    github_edit = "https://gitlab.com/chuixinyuan/dailyr/edit/master/content/"
+    github_edit = "https://gitlab.com/chuxinyuan/dailyr/edit/master/content/"
     footer = ""
     
 [params.text]
