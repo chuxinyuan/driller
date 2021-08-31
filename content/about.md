@@ -22,7 +22,9 @@ title: About
 
 # Contribute
 
-- Add your rss address and dates to the R\list.txt
+- This project is hosted on GitLab, project repos:<https://gitlab.com/chuxinyuan/dailyr>
+
+- Add your rss address and dates to the R/list.txt
 
 - Use `getrss` from [scifetch](https://github.com/yufree/scifetch) to convert rss xml file into dataframe and use the following code to generate `md` files and PR to this repo.
 
