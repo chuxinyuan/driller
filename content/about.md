@@ -22,37 +22,39 @@ title: About
 
 # Contribute
 
-- This project is hosted on GitLab, project repos:<https://gitlab.com/chuxinyuan/dailyr>
+- This project is hosted on GitLab, project repos:<https://gitlab.com/chuxinyuan/dailyr>.
 
-- Add your rss address and dates to the R/list.txt
+- Add your rss address and dates to the `R/list.txt` file.
 
 - Use `getrss` from [scifetch](https://github.com/yufree/scifetch) to convert rss xml file into dataframe and use the following code to generate `md` files and PR to this repo.
 
 ```r
+if (!dir.exists("content")) dir.create("content")
+if (!dir.exists("content/post")) dir.create("content/post")
 x = scifetch::getrss('path-to-blog-rss-xml-file')
 for (i in 1:NROW(x)) {
-    name = gsub("^http[s]?://|/$", "", tolower(x[i, 'linkTitle']))
-    name = gsub("%", "", name)
-    name = gsub("[^a-z0-9]+", "-", name)
-    name = gsub("--+", "-", name)
-    # file name too long issue
-    name = substr(name, 1, 100)
-    p = sprintf('content/post/%s.md', paste0(name))
-    
-    sink(p)
-    cat('---\n')
-    cat(yaml::as.yaml(x[i,],))
-    cat('disable_comments: true\n')
-    cat('---\n')
-    cat(as.character(x[i, 5]))
-    sink()
+  name = gsub("^http[s]?://|/$", "", tolower(x[i, 'linkTitle']))
+  name = gsub("%", "", name)
+  name = gsub("[^a-z0-9]+", "-", name)
+  name = gsub("--+", "-", name)
+  # file name too long issue
+  name = substr(name, 1, 100)
+  p = sprintf('content/post/%s.md', paste0(name))
+  
+  sink(p)
+  cat('---\n')
+  cat(yaml::as.yaml(x[i, ], ))
+  cat('disable_comments: true\n')
+  cat('---\n')
+  cat(as.character(x[i, 5]))
+  sink()
 }
 ```
 
 # Recipe
 
-- [daily](https://github.com/yufree/daily) gave me all the source code, thanks to yufree and others for their great work.
-- [Blogdown](https://github.com/rstudio/blogdown) to build the site from yihui.
+- [daily](https://github.com/yufree/daily) provides all the source code, thanks to yufree and others for their great work.
+- [blogdown](https://github.com/rstudio/blogdown) to build the site from yihui.
 - [xmag](https://github.com/yihui/hugo-xmag) layout also from yihui and yufree made some modifications [here](https://github.com/yufree/hugo-xmag).
 - [scifetch](https://github.com/yufree/scifetch) to analysis RSS(support xml, atom and json) from yufree, modified from [tidyRSS](https://cran.r-project.org/web/packages/tidyRSS/index.html) from RobertMyles.
 - [Yihui's Twitter Feeds](https://t.yihui.org) by yihui was the template to be hacked.
