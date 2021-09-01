@@ -2,7 +2,7 @@
 title: Up & Running with blogdown
 date: '2017-06-12'
 linkTitle: https://alison.rbind.io/blog/2017-06-up-running-with-blogdown/
-source: Alison Hill
+source: Blog on Alison Hill
 description: "<div class=\"alert alert-note\"> <div> <p>Greetings from the future!</p>\n<p>A
   lot has changed about blogdown, Hugo, and the Academic theme (now Wowchemy) since
   the time this post was written.</p>\n<p>An updated tutorial can now be found <a

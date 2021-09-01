@@ -2,7 +2,7 @@
 title: R-Ladies Presentation Ninja
 date: '2017-12-18'
 linkTitle: https://alison.rbind.io/blog/2017-12-rladies-xaringan/
-source: Alison Hill
+source: Blog on Alison Hill
 description: <p>So, you are doing an <a href="https://rladies.org" target="_blank"
   rel="noopener">R-Ladies</a> presentation…that’s awesome!</p> <h2 id="the-short-version">The
   short version <a href="#the-short-version"><svg class="anchor-symbol" aria-hidden="true"

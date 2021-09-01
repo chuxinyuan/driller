@@ -2,7 +2,7 @@
 title: How much Hugo do I need to know?
 date: '2020-12-12'
 linkTitle: https://alison.rbind.io/blog/2020-12-how-much-hugo/
-source: Alison Hill
+source: Blog on Alison Hill
 description: |-
   <p>Greetings and happy holidays! As many folks are looking forward to down time over the holidays, my inbox naturally starts filling in with questions like &ldquo;What is the difference between blogdown and X?&rdquo;, &ldquo;How hard is Hugo to learn?&rdquo;, and &ldquo;Which Hugo theme do you recommend?&rdquo; These are all great questions. But the best one in my mind that one needs to ask is:</p>
   <blockquote>

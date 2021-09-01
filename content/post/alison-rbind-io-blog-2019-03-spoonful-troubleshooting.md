@@ -2,7 +2,7 @@
 title: Troubleshooting Your Build
 date: '2019-03-04'
 linkTitle: https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/
-source: Alison Hill
+source: Blog on Alison Hill
 description: |-
   <blockquote>
   <p>&ldquo;Just a spoonful of Hugo helps the blog go down.&rdquo;</p>

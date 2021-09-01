@@ -2,7 +2,7 @@
 title: Teaching students to talk about data science
 date: '2020-12-13'
 linkTitle: https://alison.rbind.io/blog/2020-12-self-assessments/
-source: Alison Hill
+source: Blog on Alison Hill
 description: "<p>Last summer (\U0001F62C), I was invited to give a talk at the Joint
   Statistical Meetings on data science education. The session I was invited to join
   included Shannon Ellis, Stephanie Hicks, and Michael Love as the other speakers,

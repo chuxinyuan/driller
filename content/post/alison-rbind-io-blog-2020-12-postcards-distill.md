@@ -2,7 +2,7 @@
 title: 'M-F-E-O: postcards + distill'
 date: '2020-12-22'
 linkTitle: https://alison.rbind.io/blog/2020-12-postcards-distill/
-source: Alison Hill
+source: Blog on Alison Hill
 description: |-
   <p>This is a very brief &ldquo;postcard to myself&rdquo; about how to use the new <a href="https://github.com/seankross/postcards" target="_blank" rel="noopener">postcards package</a> by Sean Kross. What problem does postcards solve?</p>
   <blockquote>

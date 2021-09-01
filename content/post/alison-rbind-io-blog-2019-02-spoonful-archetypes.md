@@ -2,7 +2,7 @@
 title: Hugo Archetypes
 date: '2019-02-19'
 linkTitle: https://alison.rbind.io/blog/2019-02-spoonful-archetypes/
-source: Alison Hill
+source: Blog on Alison Hill
 description: |-
   <blockquote>
   <p>&ldquo;Just a spoonful of Hugo helps the blog go down.&rdquo;</p>

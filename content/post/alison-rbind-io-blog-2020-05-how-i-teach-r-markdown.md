@@ -2,7 +2,7 @@
 title: How I Teach R Markdown
 date: '2020-05-28'
 linkTitle: https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/
-source: Alison Hill
+source: Blog on Alison Hill
 description: <p>Ah, <a href="https://rmarkdown.rstudio.com/" target="_blank" rel="noopener">R
   Markdown</a>. I love teaching R Markdown. But this was not a love at first sight
   story. When I first started teaching with R at Oregon Health &amp; Science University

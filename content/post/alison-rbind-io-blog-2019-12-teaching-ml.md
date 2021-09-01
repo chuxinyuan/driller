@@ -2,7 +2,7 @@
 title: Learning to Teach Machines to Learn
 date: '2019-12-23'
 linkTitle: https://alison.rbind.io/blog/2019-12-teaching-ml/
-source: Alison Hill
+source: Blog on Alison Hill
 description: "<p>I&rsquo;m excited to be teaching a new workshop at the upcoming <a
   href=\"https://rstudio.com/conference/\" target=\"_blank\" rel=\"noopener\">rstudio::conf</a>
   in January called <em>&ldquo;Introduction to Machine Learning with the Tidyverse&rdquo;</em>,
