@@ -24,3 +24,5 @@
 "https://blog.rstudio.com/index.xml","2021-09-01"
 "https://www.r-bloggers.com/feed","2021-09-03"
 "https://statmodeling.stat.columbia.edu/feed/","2021-09-03"
+"https://yihui.name/index.xml","1900-01-01"
+"https://rviews.rstudio.com/index.xml","1900-01-01"
