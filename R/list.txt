@@ -26,3 +26,4 @@
 "https://statmodeling.stat.columbia.edu/feed/","2021-09-04"
 "https://yihui.name/index.xml","2021-09-04"
 "https://rviews.rstudio.com/index.xml","2021-09-04"
+"https://cxy.rbind.io/index.xml","1900-01-01"
