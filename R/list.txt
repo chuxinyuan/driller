@@ -27,3 +27,4 @@
 "https://www.r-bloggers.com/feed","2021-09-07"
 "https://statmodeling.stat.columbia.edu/feed/","2021-09-07"
 "https://cxy.rbind.io/index.xml","2021-09-07"
+"https://developer.r-project.org/Blog/public/index.xml","0001-01-01"
