@@ -131,7 +131,7 @@ getrss <- function(feed){
 
 
 dir.create('content/post', showWarnings = FALSE)
-d = Sys.Date()
+d = Sys.Date() - 1
 
 if (!file.exists(f <- 'R/list.txt')) writeLines('website, update', f)
 m = read.csv(f, colClasses = "character")
