@@ -131,7 +131,7 @@ getrss <- function(feed){
 
 
 dir.create('content/post', showWarnings = FALSE)
-d = Sys.Date() - 1
+d = Sys.Date()
 
 if (!file.exists(f <- 'R/list.txt')) writeLines('website, update', f)
 m = read.csv(f, colClasses = "character")
@@ -151,7 +151,7 @@ for (i in 1:NROW(m)) {
                 # fewer characters for wider chars
                 description = substr(description, 1, 600 * nchar(description) / nchar(description, 'width'))
                 a$description = paste(sub(' +[^ ]{1,20}$', '', description), '...')
-                n <- sum(as.POSIXct(a$date[1:NROW(a)])>as.POSIXct(m[i,2]))
+                n <- sum(as.POSIXct(a$date[1:NROW(a)]) >= as.POSIXct(m[i,2]))
         }else{
                 n <- 0
         }
