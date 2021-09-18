@@ -27,5 +27,5 @@
 "https://data-se.netlify.app/index.xml","2021-09-17"
 "https://robjhyndman.com/index.xml","2021-09-17"
 "https://blog.rstudio.com/index.xml","2021-09-17"
-"https://www.r-bloggers.com/feed","2021-09-17"
-"https://statmodeling.stat.columbia.edu/feed/","2021-09-17"
+"https://www.r-bloggers.com/feed","2021-09-18"
+"https://statmodeling.stat.columbia.edu/feed/","2021-09-18"
