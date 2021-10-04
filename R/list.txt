@@ -27,5 +27,5 @@
 "https://robjhyndman.com/index.xml","2021-09-29"
 "https://blog.rstudio.com/index.xml","2021-10-01"
 "https://www.liechi.org/index.xml","2021-10-02"
-"https://www.r-bloggers.com/feed","2021-10-03"
-"https://statmodeling.stat.columbia.edu/feed/","2021-10-03"
+"https://www.r-bloggers.com/feed","2021-10-04"
+"https://statmodeling.stat.columbia.edu/feed/","2021-10-04"
