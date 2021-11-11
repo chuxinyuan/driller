@@ -27,5 +27,5 @@
 "https://rviews.rstudio.com/index.xml","2021-11-05"
 "https://yufree.cn/cn/index.xml","2021-11-07"
 "https://blog.rstudio.com/index.xml","2021-11-09"
-"https://www.r-bloggers.com/feed","2021-11-10"
-"https://statmodeling.stat.columbia.edu/feed/","2021-11-10"
+"https://www.r-bloggers.com/feed","2021-11-11"
+"https://statmodeling.stat.columbia.edu/feed/","2021-11-11"
