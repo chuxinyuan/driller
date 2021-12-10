@@ -27,5 +27,5 @@
 "https://developer.r-project.org/Blog/public/index.xml","2021-12-08"
 "https://rviews.rstudio.com/index.xml","2021-12-09"
 "https://blog.rstudio.com/index.xml","2021-12-09"
-"https://www.r-bloggers.com/feed","2021-12-09"
-"https://statmodeling.stat.columbia.edu/feed/","2021-12-09"
+"https://www.r-bloggers.com/feed","2021-12-10"
+"https://statmodeling.stat.columbia.edu/feed/","2021-12-10"
