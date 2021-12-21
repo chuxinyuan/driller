@@ -27,5 +27,5 @@
 "https://blog.rstudio.com/index.xml","2021-12-17"
 "https://yufree.cn/cn/index.xml","2021-12-19"
 "https://shrektan.com/index.xml","2021-12-20"
-"https://www.r-bloggers.com/feed","2021-12-20"
-"https://statmodeling.stat.columbia.edu/feed/","2021-12-20"
+"https://www.r-bloggers.com/feed","2021-12-21"
+"https://statmodeling.stat.columbia.edu/feed/","2021-12-21"
