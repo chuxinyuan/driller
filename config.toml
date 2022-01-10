@@ -22,12 +22,16 @@ enableEmoji = true
     name = "About"
     url = "/about/"
     weight = 3
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+    weight = 4
 
 [params]
     description = "A light blog aggregator website for R"
     summary_length = 300
     github_edit = "https://gitlab.com/chuxinyuan/dailyr/edit/master/content/"
-    footer = ""
+    footer = "&copy; [楚新元](https://cxy.rbind.io) 2020"
     
 [params.text]
     back = "&larr; Back to Home"
