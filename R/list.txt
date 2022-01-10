@@ -27,5 +27,5 @@
 "https://yihui.name/index.xml","2022-01-07"
 "https://blog.rstudio.com/index.xml","2022-01-07"
 "https://shrektan.com/index.xml","2022-01-09"
-"https://www.r-bloggers.com/feed","2022-01-09"
-"https://statmodeling.stat.columbia.edu/feed/","2022-01-09"
+"https://www.r-bloggers.com/feed","2022-01-10"
+"https://statmodeling.stat.columbia.edu/feed/","2022-01-10"
