@@ -27,5 +27,5 @@
 "https://robjhyndman.com/index.xml","2022-03-02"
 "https://alison.rbind.io/index.xml","2022-03-04"
 "https://yufree.cn/cn/index.xml","2022-03-06"
-"https://www.r-bloggers.com/feed","2022-03-06"
-"https://statmodeling.stat.columbia.edu/feed/","2022-03-06"
+"https://www.r-bloggers.com/feed","2022-03-07"
+"https://statmodeling.stat.columbia.edu/feed/","2022-03-07"
