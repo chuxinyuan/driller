@@ -27,5 +27,5 @@
 "https://rviews.rstudio.com/index.xml","2022-03-29"
 "https://data-se.netlify.app/index.xml","2022-03-29"
 "https://blog.rstudio.com/index.xml","2022-03-29"
-"https://www.r-bloggers.com/feed","2022-03-29"
-"https://statmodeling.stat.columbia.edu/feed/","2022-03-29"
+"https://www.r-bloggers.com/feed","2022-03-30"
+"https://statmodeling.stat.columbia.edu/feed/","2022-03-30"
