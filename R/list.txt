@@ -27,5 +27,5 @@
 "https://www.njtierney.com/post/index.xml","2022-04-12"
 "https://yufree.cn/cn/index.xml","2022-04-12"
 "https://blog.rstudio.com/index.xml","2022-04-12"
-"https://www.r-bloggers.com/feed","2022-04-12"
-"https://statmodeling.stat.columbia.edu/feed/","2022-04-12"
+"https://www.r-bloggers.com/feed","2022-04-13"
+"https://statmodeling.stat.columbia.edu/feed/","2022-04-13"
