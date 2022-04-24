@@ -28,4 +28,4 @@
 "https://blog.rstudio.com/index.xml","2022-04-22"
 "freakonometrics.hypotheses.org/feed","2022-04-23"
 "https://www.r-bloggers.com/feed","2022-04-23"
-"https://statmodeling.stat.columbia.edu/feed/","2022-04-23"
+"https://statmodeling.stat.columbia.edu/feed/","2022-04-24"
