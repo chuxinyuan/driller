@@ -27,5 +27,5 @@
 "https://robjhyndman.com/index.xml","2022-05-04"
 "https://yufree.cn/cn/index.xml","2022-05-04"
 "https://blog.rstudio.com/index.xml","2022-05-05"
-"https://www.r-bloggers.com/feed","2022-05-05"
-"https://statmodeling.stat.columbia.edu/feed/","2022-05-05"
+"https://www.r-bloggers.com/feed","2022-05-06"
+"https://statmodeling.stat.columbia.edu/feed/","2022-05-06"
