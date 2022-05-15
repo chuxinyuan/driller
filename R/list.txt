@@ -27,5 +27,5 @@
 "https://yufree.cn/cn/index.xml","2022-05-12"
 "https://data-se.netlify.app/index.xml","2022-05-12"
 "https://rviews.rstudio.com/index.xml","2022-05-14"
-"https://www.r-bloggers.com/feed","2022-05-14"
-"https://statmodeling.stat.columbia.edu/feed/","2022-05-14"
+"https://www.r-bloggers.com/feed","2022-05-15"
+"https://statmodeling.stat.columbia.edu/feed/","2022-05-15"
