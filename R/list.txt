@@ -27,5 +27,5 @@
 "https://yihui.org/index.xml","2022-05-21"
 "https://yihui.name/index.xml","2022-05-21"
 "https://shrektan.com/index.xml","2022-05-21"
-"https://www.r-bloggers.com/feed","2022-05-21"
-"https://statmodeling.stat.columbia.edu/feed/","2022-05-21"
+"https://www.r-bloggers.com/feed","2022-05-22"
+"https://statmodeling.stat.columbia.edu/feed/","2022-05-22"
