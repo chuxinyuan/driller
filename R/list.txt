@@ -27,5 +27,5 @@
 "https://yufree.cn/cn/index.xml","2022-06-13"
 "https://data-se.netlify.app/index.xml","2022-06-14"
 "freakonometrics.hypotheses.org/feed","2022-06-14"
-"https://www.r-bloggers.com/feed","2022-06-14"
-"https://statmodeling.stat.columbia.edu/feed/","2022-06-14"
+"https://www.r-bloggers.com/feed","2022-06-15"
+"https://statmodeling.stat.columbia.edu/feed/","2022-06-15"
