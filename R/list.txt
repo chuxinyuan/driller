@@ -26,6 +26,6 @@
 "https://developer.r-project.org/Blog/public/index.xml","2022-06-17"
 "https://blog.rstudio.com/index.xml","2022-06-17"
 "https://rviews.rstudio.com/index.xml","2022-06-18"
-"https://www.r-bloggers.com/feed","2022-06-19"
 "https://yufree.cn/cn/index.xml","2022-06-20"
-"https://statmodeling.stat.columbia.edu/feed/","2022-06-20"
+"https://www.r-bloggers.com/feed","2022-06-21"
+"https://statmodeling.stat.columbia.edu/feed/","2022-06-21"
