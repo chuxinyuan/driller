@@ -26,6 +26,6 @@
 "https://yufree.cn/cn/index.xml","2022-08-15"
 "https://blog.rstudio.com/index.xml","2022-08-19"
 "https://xiangyun.rbind.io/index.xml","2022-08-24"
-"https://www.r-bloggers.com/feed","2022-08-24"
 "https://robjhyndman.com/index.xml","2022-08-24"
-"https://statmodeling.stat.columbia.edu/feed/","2022-08-24"
+"https://www.r-bloggers.com/feed","2022-08-25"
+"https://statmodeling.stat.columbia.edu/feed/","2022-08-25"
