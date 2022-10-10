@@ -27,5 +27,5 @@
 "https://www.statistics.com/blog/feed","2022-10-07"
 "https://robjhyndman.com/index.xml","2022-10-07"
 "https://blog.rstudio.com/index.xml","2022-10-07"
-"https://www.r-bloggers.com/feed","2022-10-09"
-"https://statmodeling.stat.columbia.edu/feed/","2022-10-09"
+"https://www.r-bloggers.com/feed","2022-10-10"
+"https://statmodeling.stat.columbia.edu/feed/","2022-10-10"
