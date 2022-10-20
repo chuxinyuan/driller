@@ -27,5 +27,5 @@
 "https://yihui.org/index.xml","2022-10-19"
 "https://yihui.name/index.xml","2022-10-19"
 "https://blog.rstudio.com/index.xml","2022-10-19"
-"https://www.r-bloggers.com/feed","2022-10-19"
-"https://statmodeling.stat.columbia.edu/feed/","2022-10-19"
+"https://www.r-bloggers.com/feed","2022-10-20"
+"https://statmodeling.stat.columbia.edu/feed/","2022-10-20"
