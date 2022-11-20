@@ -27,5 +27,5 @@
 "freakonometrics.hypotheses.org/feed","2022-11-16"
 "https://yufree.cn/cn/index.xml","2022-11-19"
 "https://robjhyndman.com/index.xml","2022-11-19"
-"https://www.r-bloggers.com/feed","2022-11-19"
-"https://statmodeling.stat.columbia.edu/feed/","2022-11-19"
+"https://www.r-bloggers.com/feed","2022-11-20"
+"https://statmodeling.stat.columbia.edu/feed/","2022-11-20"
