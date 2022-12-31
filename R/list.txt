@@ -27,5 +27,5 @@
 "https://jiangjun.netlify.app/index.xml","2022-12-25"
 "https://yufree.cn/cn/index.xml","2022-12-25"
 "freakonometrics.hypotheses.org/feed","2022-12-29"
-"https://www.r-bloggers.com/feed","2022-12-30"
-"https://statmodeling.stat.columbia.edu/feed/","2022-12-30"
+"https://www.r-bloggers.com/feed","2022-12-31"
+"https://statmodeling.stat.columbia.edu/feed/","2022-12-31"
