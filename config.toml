@@ -1,4 +1,4 @@
-baseurl = "https://dailyr.vercel.app/"
+baseurl = "https://driller.netlify.app/"
 languageCode = "en-us"
 title = "DAILY FOR R"
 theme = "hugo-xmag"
