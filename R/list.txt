@@ -27,5 +27,5 @@
 "https://rviews.rstudio.com/index.xml","2023-04-29"
 "https://yufree.cn/cn/index.xml","2023-05-03"
 "https://xiangyun.rbind.io/index.xml","2023-05-03"
-"https://www.r-bloggers.com/feed","2023-05-05"
-"https://statmodeling.stat.columbia.edu/feed/","2023-05-05"
+"https://www.r-bloggers.com/feed","2023-05-06"
+"https://statmodeling.stat.columbia.edu/feed/","2023-05-06"
