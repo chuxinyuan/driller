@@ -27,5 +27,5 @@
 "https://robjhyndman.com/index.xml","2023-05-19"
 "https://yufree.cn/cn/index.xml","2023-05-19"
 "freakonometrics.hypotheses.org/feed","2023-05-22"
-"https://www.r-bloggers.com/feed","2023-05-23"
-"https://statmodeling.stat.columbia.edu/feed/","2023-05-23"
+"https://www.r-bloggers.com/feed","2023-05-24"
+"https://statmodeling.stat.columbia.edu/feed/","2023-05-24"
