@@ -1,5 +1,5 @@
 ---
-title: Bob Carpenter says LLMs are intelligent.
+title: 'Computational linguist Bob Carpenter says LLMs are intelligent.  Here’s why:'
 date: '2023-05-24'
 linkTitle: https://statmodeling.stat.columbia.edu/2023/05/24/bob-carpenter-says-llms-are-intelligent/
 source: Statistical Modeling, Causal Inference, and Social Science
