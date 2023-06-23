@@ -1,6 +1,6 @@
 ---
-title: Here are some ways of making your study replicable.  (No, it’s not preregistration
-  or increasing the sample size!)
+title: Here are some ways of making your study replicable.  (No, the first steps are
+  not preregistration or increasing the sample size!)
 date: '2023-06-22'
 linkTitle: https://statmodeling.stat.columbia.edu/2023/06/22/here-are-some-ways-of-making-your-study-replicable-no-its-not-what-you-think/
 source: Statistical Modeling, Causal Inference, and Social Science
