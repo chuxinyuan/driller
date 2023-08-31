@@ -1,5 +1,5 @@
 ---
-title: Some Open Questions in Statistics (my talk this Fri, 1 Sep 2003, at the University
+title: Some Open Questions in Statistics (my talk this Fri, 1 Sep 2023, at the University
   of Michigan)
 date: '2023-08-29'
 linkTitle: https://statmodeling.stat.columbia.edu/2023/08/29/some-open-questions-in-statistics-my-talk-this-fri-1-sep-2003-at-the-university-of-michigan/
