@@ -25,5 +25,5 @@ get_md_file:
     # push to origin branch
     - git add --all *
     - git commit -m '[skip ci] commit from CI runner'
-    - git push -q https://#@314159Pi@github.com/${CI_PROJECT_PATH}.git HEAD:master
+    - git push -q https://${CI_TOKEN}@github.com/${CI_PROJECT_PATH}.git HEAD:master
 
