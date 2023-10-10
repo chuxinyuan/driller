@@ -25,5 +25,5 @@ get_md_file:
     # push to origin branch
     - git add --all *
     - git commit -m '[skip ci] commit from CI runner'
-    - git push origin https://${CI_USERNAME}:${CI_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git
+    - git push -o ci.skip
 
