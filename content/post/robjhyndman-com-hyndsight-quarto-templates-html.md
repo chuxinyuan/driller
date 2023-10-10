@@ -12,7 +12,7 @@ description: |2-
   <tbody><tr>
   <td valign="top">
   <pre><code>quarto use template numbats/monash-quarto-letter</code></pre>
-  <p>This will install the extension and create an example ...
+  <p>This will install the extension and create an example qmd file ...
 disable_comments: true
 ---
  <div> <div class="description"> I’ve created some quarto templates with Monash University branding. </div>
@@ -23,4 +23,4 @@ disable_comments: true
 <tbody><tr>
 <td valign="top">
 <pre><code>quarto use template numbats/monash-quarto-letter</code></pre>
-<p>This will install the extension and create an example ...
+<p>This will install the extension and create an example qmd file ...

@@ -1,12 +1,26 @@
 ---
 title: Forecasting podcasts
-date: '2021-04-14'
+date: '2023-05-25'
 linkTitle: https://robjhyndman.com/hyndsight/podcasts/
 source: Rob J Hyndman
-description: |-
-  I&rsquo;ve been interviewed for several podcasts over the last year or so. It&rsquo;s always fun to talk about my work, and I hope there is enough differences between them to make it interesting for listeners. Here is a full list of them.
-  (Updated: 30 May 2021) Date Podcast Episode 24 May 2021 Data Skeptic Forecasting principles and practice 12 April 2021 Seriously Social Forecasting the future: the science of prediction 6 February 2021 Forecasting Impact Rob Hyndman 19 July 2020 The Curious Quant Forecasting COVID, time series, and why causality doesnt matter as much as you think‪ 27 May 2020  ...
+description: |2-
+   <p>I’ve been interviewed for several podcasts over the last few years. It’s always fun to talk about my work, and I hope there are enough differences between them to make it interesting for listeners. Here is a full list of them.</p>
+  <div class="cell">
+  <div class="cell-output-display">
+  <table class="table table-sm table-striped small" data-quarto-postprocess="true">
+  <thead>
+  <tr class="header">
+  <th style="text-align: left;" data-quarto-table-cell-role="th">Date</th>
+  <th style="text-align: left;" data-quarto-table-cell-role="th">Podcast</th>
+  <th style="text-align: left;" data-quarto-table-cell-role="th" ...
 disable_comments: true
 ---
-I&rsquo;ve been interviewed for several podcasts over the last year or so. It&rsquo;s always fun to talk about my work, and I hope there is enough differences between them to make it interesting for listeners. Here is a full list of them.
-(Updated: 30 May 2021) Date Podcast Episode 24 May 2021 Data Skeptic Forecasting principles and practice 12 April 2021 Seriously Social Forecasting the future: the science of prediction 6 February 2021 Forecasting Impact Rob Hyndman 19 July 2020 The Curious Quant Forecasting COVID, time series, and why causality doesnt matter as much as you think‪ 27 May 2020  ...
+ <p>I’ve been interviewed for several podcasts over the last few years. It’s always fun to talk about my work, and I hope there are enough differences between them to make it interesting for listeners. Here is a full list of them.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Date</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Podcast</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" ...

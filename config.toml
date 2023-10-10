@@ -26,13 +26,10 @@ enableEmoji = true
 [params]
     description = "A light blog aggregator website for R"
     summary_length = 300
-    github_edit = "https://gitlab.com/chuxinyuan/dailyr/edit/master/content/"
+    github_edit = "https://gitlab.com/chuxinyuan/driller/edit/master/content/"
     footer = ""
     
 [params.text]
     back = "&larr; Back to Home"
     edit = "Edit this page &rarr;"
     truncated = "&hellip;"
-
-[markup]
-    defaultMarkdownHandler = 'blackfriday'
