@@ -25,5 +25,5 @@ get_md_file:
     # push to origin branch
     - git add --all *
     - git commit -m '[skip ci] commit from CI runner'
-    - git push -o ci.skip
+    - git push origin HEAD:main
 
