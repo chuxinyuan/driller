@@ -1,4 +1,4 @@
-image: rocker/verse:4.0.1
+image: rocker/verse:4.1.1
 
 get_md_file:
   stage: build
