@@ -27,5 +27,5 @@
 "https://xiangyun.rbind.io/index.xml","2024-02-06"
 "https://robjhyndman.com/index.xml","2024-02-08"
 "freakonometrics.hypotheses.org/feed","2024-02-10"
-"https://statmodeling.stat.columbia.edu/feed/","2024-02-11"
-"https://www.r-bloggers.com/feed","2024-02-11"
+"https://statmodeling.stat.columbia.edu/feed/","2024-02-12"
+"https://www.r-bloggers.com/feed","2024-02-12"
