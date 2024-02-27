@@ -27,5 +27,5 @@
 "freakonometrics.hypotheses.org/feed","2024-02-24"
 "https://yufree.cn/cn/index.xml","2024-02-25"
 "https://data-se.netlify.app/index.xml","2024-02-26"
-"https://www.r-bloggers.com/feed","2024-02-26"
-"https://statmodeling.stat.columbia.edu/feed/","2024-02-26"
+"https://www.r-bloggers.com/feed","2024-02-27"
+"https://statmodeling.stat.columbia.edu/feed/","2024-02-27"
