@@ -1,6 +1,6 @@
 ---
-title: Bill James hangs up his hat.  Also some general thoughts about writing vs.
-  statistics.  Also I push back against James’s claim about sabermetrics and statistics.
+title: Bill James hangs up his hat.  Also some general thoughts about book writing
+  vs. blogging.  Also I push back against James’s claim about sabermetrics and statistics.
 date: '2024-07-17'
 linkTitle: https://statmodeling.stat.columbia.edu/2024/07/17/bill-james-hangs-up-his-hat/
 source: Statistical Modeling, Causal Inference, and Social Science
