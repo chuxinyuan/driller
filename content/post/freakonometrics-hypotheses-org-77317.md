@@ -5,13 +5,13 @@ date: '2024-10-02'
 linkTitle: https://freakonometrics.hypotheses.org/77317
 source: Freakonometrics
 description: This Friday, I will be in Laval University, in Québec, to give a talk
-  at the Statlab/INCASS-Québec/CIMMUL day. In this talk, we present two complementary
-  approaches to addressing fairness in algorithmic decision-making, regarding individual
-  and group fairness. First, we use Wasserstein barycenters to obtain (strong Demographic
+  at the Statlab annual day. In this talk, we present two complementary approaches
+  to addressing fairness in algorithmic decision-making, regarding individual and
+  group fairness. First, we use Wasserstein barycenters to obtain (strong Demographic
   Parity) with one or multiple sensitive features. Our method provides a closed-form
   solution for the optimal, sequentially fair predictor, enabling possible interpretation
   of correlations between sensitive attributes. Then, we introduce a novel method
-  that links two ...
+  that links two existing &#8230; ...
 disable_comments: true
 ---
-This Friday, I will be in Laval University, in Québec, to give a talk at the Statlab/INCASS-Québec/CIMMUL day. In this talk, we present two complementary approaches to addressing fairness in algorithmic decision-making, regarding individual and group fairness. First, we use Wasserstein barycenters to obtain (strong Demographic Parity) with one or multiple sensitive features. Our method provides a closed-form solution for the optimal, sequentially fair predictor, enabling possible interpretation of correlations between sensitive attributes. Then, we introduce a novel method that links two ...
+This Friday, I will be in Laval University, in Québec, to give a talk at the Statlab annual day. In this talk, we present two complementary approaches to addressing fairness in algorithmic decision-making, regarding individual and group fairness. First, we use Wasserstein barycenters to obtain (strong Demographic Parity) with one or multiple sensitive features. Our method provides a closed-form solution for the optimal, sequentially fair predictor, enabling possible interpretation of correlations between sensitive attributes. Then, we introduce a novel method that links two existing &#8230; ...
